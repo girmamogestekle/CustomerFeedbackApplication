@@ -5,7 +5,7 @@ FROM public.ecr.aws/lambda/java:11
 WORKDIR /app
 
 # Copy the application JAR file into the container
-COPY target/*.jar customer-feedback-applicationapp.jar
+COPY target/*.jar customer-feedback-application.jar
 
 # Set the command to run the Lambda function
 CMD ["customer-feedback-application.jar"]
