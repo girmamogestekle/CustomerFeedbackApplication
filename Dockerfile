@@ -2,7 +2,7 @@
 FROM public.ecr.aws/lambda/java:11
 
 # Set the working directory inside the container
-WORKDIR /app
+WORKDIR /var/task
 
 # Copy the application JAR file into the container
 COPY target/*.jar customer-feedback-application.jar
