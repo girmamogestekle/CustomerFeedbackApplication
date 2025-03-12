@@ -6,7 +6,6 @@ import org.springframework.context.annotation.Import;
 
 import application.customer.feedback.com.controller.PingController;
 
-
 @SpringBootApplication
 // We use direct @Import instead of @ComponentScan to speed up cold starts
 // @ComponentScan(basePackages = "application.customer.feedback.com.controller")
